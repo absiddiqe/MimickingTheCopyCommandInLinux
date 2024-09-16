@@ -20,7 +20,6 @@ public class Copy {
         
         // Check if the source file exists
             try {
-
                 // Perform the copy operation With copyFile Method below 
                 copyFile(sourceFilePath, destinationFilePath);
                 System.out.println("File copied successfully.");
